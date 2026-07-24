@@ -1,0 +1,30 @@
+# Dependencies and local caches
+node_modules
+.expo
+dist
+web-build
+.git
+
+# Local configuration and credentials
+.env
+.env.*
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Private family setup and database history
+supabase
+src/data
+
+# Local-only documentation and agent instructions
+README.md
+AGENTS.md
+CLAUDE.md
+
+# OS and editor files
+.DS_Store
+*.log
+*.tsbuildinfo
